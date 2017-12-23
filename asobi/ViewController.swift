@@ -14,31 +14,24 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var sliderslider: UISlider!
    
+    @IBOutlet weak var textbox1: UITextField!
     
     
     @IBAction func button1(_ sender: Any) {
-        sliderslider.value += 0.25
+        textbox1.text = ""
+        sliderslider.value += 0.5
     }
+    
+    
+    
+    @IBOutlet weak var textbox2: UITextField!
     
     
     @IBAction func button2(_ sender: Any) {
-        sliderslider.value += 0.25
+        textbox2.text = ""
+        sliderslider.value += 0.5
+        
     }
-    
-    
-    @IBAction func button3(_ sender: Any) {
-        sliderslider.value += 0.25
-    }
-    
-    @IBAction func button4(_ sender: Any) {
-        sliderslider.value += 0.25
-    }
-    
-    
-    
-    
-    
-    
     
     
     
