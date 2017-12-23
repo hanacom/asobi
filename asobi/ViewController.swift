@@ -13,15 +13,42 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var sliderslider: UISlider!
+   
     
     
     @IBAction func button1(_ sender: Any) {
-        sliderslider.value = 0.2
+        sliderslider.value += 0.25
     }
+    
+    
+    @IBAction func button2(_ sender: Any) {
+        sliderslider.value += 0.25
+    }
+    
+    
+    @IBAction func button3(_ sender: Any) {
+        sliderslider.value += 0.25
+    }
+    
+    @IBAction func button4(_ sender: Any) {
+        sliderslider.value += 0.25
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        sliderslider.value = 0
     }
 
     override func didReceiveMemoryWarning() {
