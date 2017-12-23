@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var sliderslider: UISlider!
+    
+    
+    @IBAction func button1(_ sender: Any) {
+        sliderslider.value = 0.2
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
